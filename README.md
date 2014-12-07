@@ -8,10 +8,13 @@ The different version is determined with the TAG
 
 The available version are 
 
-* latest - currently OpenJDK Java version 7 JRE
-* openjdk-7-jdk - OpenJDK Java version 7 JDK
-* openjdk-7-jre - OpenJDK Java version 7 JRE
+* latest - currently OpenJDK Java version 8 JRE
+* openjdk-7-jdk          - OpenJDK Java version 7 JDK
+* openjdk-7-jre          - OpenJDK Java version 7 JRE
 * openjdk-7-jre-headless - OpenJDK Java version 7 JRE headless
+* openjdk-8-jdk          - OpenJDK Java version 8 JDK
+* openjdk-8-jre          - OpenJDK Java version 8 JRE
+* openjdk-8-jre-headless - OpenJDK Java version 8 JRE headless
 
 Example to run a container with OpenJDK version 7 JDK
 
