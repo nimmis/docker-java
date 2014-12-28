@@ -15,6 +15,10 @@ RUN apt-get update
 RUN apt-get install -y openjdk-8-jre-headless
 RUN rm -rf /var/lib/apt/lists/*
 
+# workaround for bug on ubuntu 14.04 with openjdk-8-jre-headless
+
+RUN /var/lib/dpkg/info/ca-certificates-java.postinst configure
+
 #set default command
 CMD ["bash"]
 
