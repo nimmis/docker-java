@@ -4,9 +4,9 @@ This is docker images of Ubuntu 14.04 LTS with different versions of java
 
 ### Examples
 
-This immages are build on nimmis/ubuntu which are a modified version of ubuntu
-with a working init process, cron and syslog. Services are started with
-supervisor daemon, for more information about that se (nimmis/ubuntu)[https://registry.hub.docker.com/u/nimmis/ubuntu/]
+This images are build on nimmis/ubuntu which are a modified version of ubuntu with a working 
+init process, fixes for some docker bugs and a working cron and syslog. Services are started with
+supervisor daemon, for more information about that see [nimmis/ubuntu](https://registry.hub.docker.com/u/nimmis/ubuntu/)
 
 #### starting the container with a normal shell
 
@@ -14,7 +14,7 @@ supervisor daemon, for more information about that se (nimmis/ubuntu)[https://re
 
 This will start the container with a normal shell, no cron or other systems are started
 
-#### starting the container as a daemom
+#### starting the container as a daemon
 
 	docker run -d nimmis/java:openjdk-7-jdk
 
