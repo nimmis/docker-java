@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM nimmis/ubuntu:14.04
 
 MAINTAINER nimmis <kjell.havneskold@gmail.com>
 
@@ -9,9 +9,7 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
 
 RUN apt-get update
-RUN apt-get install -y openjdk-7-jdk
+RUN apt-get install -y --no-install-recommends openjdk-7-jdk
 RUN rm -rf /var/lib/apt/lists/*
 
-#set default command
-CMD ["bash"]
 
