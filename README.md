@@ -1,6 +1,6 @@
 ## Java with Ubuntu 16.04 LTS
 
-This is docker images of Ubuntu 16.04 LTS with different versions of java
+This is docker images of Ubuntu (14.04 and 16.04 LTS) with different versions of java
 
 ### Examples
 
@@ -61,14 +61,14 @@ The available version are **nimmis/java:< tag >** where tag is
 | oracle-7-jdk | 16.04 | Oracle Java version 7 JDK | [![](https://images.microbadger.com/badges/image/nimmis/java:oracle-7-jdk.svg)](https://microbadger.com/images/nimmis/java:oracle-7-jdk "Get your own image badge on microbadger.com") |
 | oracle-8-jdk  | 16.04 | Oracle Java version 8 JDK | [![](https://images.microbadger.com/badges/image/nimmis/java:oracle-8-jdk.svg)](https://microbadger.com/images/nimmis/java:oracle-8-jdk "Get your own image badge on microbadger.com") |
 | 14.04-latest | 14.04 | currently OpenJDK Java version 8 JRE | [![](https://images.microbadger.com/badges/image/nimmis/java:14.04-latest.svg)](https://microbadger.com/images/nimmis/java:14.04-latest "Get your own image badge on microbadger.com") |
-| 14.04-openjdk-7-jdk | 16.04 | OpenJDK Java version 7 JDK | [![](https://images.microbadger.com/badges/image/nimmis/java:14.04-openjdk-7-jdk.svg)](https://microbadger.com/images/nimmis/java:openjdk-7-jdk "Get your own image badge on microbadger.com")  |
-| 14.04-openjdk-7-jre  | 16.04 | OpenJDK Java version 7 JRE | [![](https://images.microbadger.com/badges/image/nimmis/java:14.04-openjdk-7-jre.svg)](https://microbadger.com/images/nimmis/java:14.04-openjdk-7-jre "Get your own image badge on microbadger.com") |
-| 14.04-openjdk-7-jre-headless | 16.04 | OpenJDK Java version 7 JRE headless | [![](https://images.microbadger.com/badges/image/nimmis/java:14.04-openjdk-7-jre-headless.svg)](https://microbadger.com/images/nimmis/java:14.04-openjdk-7-jre-headless "Get your own image badge on microbadger.com") |
-| 14.04-openjdk-8-jdk | 16.04 | OpenJDK Java version 8 JDK | [![](https://images.microbadger.com/badges/image/nimmis/java:14.04-openjdk-8-jdk.svg)](https://microbadger.com/images/nimmis/java:14.04-openjdk-8-jdk "Get your own image badge on microbadger.com") |
-| 14.04-openjdk-8-jre  | 16.04 | OpenJDK Java version 8 JRE | [![](https://images.microbadger.com/badges/image/nimmis/java:14.04-openjdk-8-jre.svg)](https://microbadger.com/images/nimmis/java:14.04-openjdk-8-jre "Get your own image badge on microbadger.com") |
-| 14.04-openjdk-8-jre-headless | 16.04 | OpenJDK Java version 8 JRE headless | [![](https://images.microbadger.com/badges/image/nimmis/java:14.04-openjdk-8-jre-headless.svg)](https://microbadger.com/images/nimmis/java:14.04-openjdk-8-jre-headless "Get your own image badge on microbadger.com") |
-| 14.04-oracle-7-jdk | 16.04 | Oracle Java version 7 JDK | [![](https://images.microbadger.com/badges/image/nimmis/java:14.04-oracle-7-jdk.svg)](https://microbadger.com/images/nimmis/java:14.04-oracle-7-jdk "Get your own image badge on microbadger.com") |
-| 14.04-oracle-8-jdk  | 16.04 | Oracle Java version 8 JDK | [![](https://images.microbadger.com/badges/image/nimmis/java:14.04-oracle-8-jdk.svg)](https://microbadger.com/images/nimmis/java:14.04-oracle-8-jdk "Get your own image badge on microbadger.com") |
+| 14.04-openjdk-7-jdk | 14.04 | OpenJDK Java version 7 JDK | [![](https://images.microbadger.com/badges/image/nimmis/java:14.04-openjdk-7-jdk.svg)](https://microbadger.com/images/nimmis/java:14.04-openjdk-7-jdk "Get your own image badge on microbadger.com")  |
+| 14.04-openjdk-7-jre  | 14.04 | OpenJDK Java version 7 JRE | [![](https://images.microbadger.com/badges/image/nimmis/java:14.04-openjdk-7-jre.svg)](https://microbadger.com/images/nimmis/java:14.04-openjdk-7-jre "Get your own image badge on microbadger.com") |
+| 14.04-openjdk-7-jre-headless | 14.04 | OpenJDK Java version 7 JRE headless | [![](https://images.microbadger.com/badges/image/nimmis/java:14.04-openjdk-7-jre-headless.svg)](https://microbadger.com/images/nimmis/java:14.04-openjdk-7-jre-headless "Get your own image badge on microbadger.com") |
+| 14.04-openjdk-8-jdk | 14.04 | OpenJDK Java version 8 JDK | [![](https://images.microbadger.com/badges/image/nimmis/java:14.04-openjdk-8-jdk.svg)](https://microbadger.com/images/nimmis/java:14.04-openjdk-8-jdk "Get your own image badge on microbadger.com") |
+| 14.04-openjdk-8-jre  | 14.04 | OpenJDK Java version 8 JRE | [![](https://images.microbadger.com/badges/image/nimmis/java:14.04-openjdk-8-jre.svg)](https://microbadger.com/images/nimmis/java:14.04-openjdk-8-jre "Get your own image badge on microbadger.com") |
+| 14.04-openjdk-8-jre-headless | 14.04 | OpenJDK Java version 8 JRE headless | [![](https://images.microbadger.com/badges/image/nimmis/java:14.04-openjdk-8-jre-headless.svg)](https://microbadger.com/images/nimmis/java:14.04-openjdk-8-jre-headless "Get your own image badge on microbadger.com") |
+| 14.04-oracle-7-jdk | 14.04 | Oracle Java version 7 JDK | [![](https://images.microbadger.com/badges/image/nimmis/java:14.04-oracle-7-jdk.svg)](https://microbadger.com/images/nimmis/java:14.04-oracle-7-jdk "Get your own image badge on microbadger.com") |
+| 14.04-oracle-8-jdk  | 14.04 | Oracle Java version 8 JDK | [![](https://images.microbadger.com/badges/image/nimmis/java:14.04-oracle-8-jdk.svg)](https://microbadger.com/images/nimmis/java:14.04-oracle-8-jdk "Get your own image badge on microbadger.com") |
 
 Example to run a container with OpenJDK version 7 JDK
 
