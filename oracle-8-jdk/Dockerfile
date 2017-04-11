@@ -7,7 +7,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 # set default java environment variable
 ENV JAVA_VERSION_MAJOR=8 \
-    JAVA_VERSION_MINOR=111 \
+    JAVA_VERSION_MINOR=121 \
     JAVA_HOME=/usr/lib/jvm/default-jvm \
     PATH=${PATH}:/usr/lib/jvm/default-jvm/bin/
 
