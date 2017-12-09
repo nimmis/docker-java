@@ -18,7 +18,7 @@ RUN apt-get update && \
     apt-get -y dist-upgrade && \
 
     # Make info file about this build
-    printf "Build of nimmis/java:openjdk-9-jre-headless, date: %s\n"  `date -u +"%Y-%m-%dT%H:%M:%SZ"` > /etc/BUILDS/java && \
+    printf "Build of nimmis/java:openjdk-9-jdk, date: %s\n"  `date -u +"%Y-%m-%dT%H:%M:%SZ"` > /etc/BUILDS/java && \
 
     # install application, --force-overwrite fixes a bug with headless
     apt-get install -y --no-install-recommends -o Dpkg::Options::="--force-overwrite" openjdk-9-jdk && \
